@@ -1,0 +1,119 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -118.384545,
+                    33.791113,
+                    237
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "6045-6055 Montemalaga Drive",
+                "name": "6045-6055 Montemalaga Drive"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -118.382805,
+                    33.79665
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Clicking on target in Google Maps 2025.07.04 33.796642, -118.382823",
+                "name": "Via Campesina at bridge"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -118.379051,
+                    33.795918
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Clicking on target in Google Maps 2025.07.04 33.795920, -118.379062",
+                "name": "3301 Via Campesina"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -118.382706,
+                    33.794216
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Clicking on target in Google Maps 2025.07.04 33.794234, -118.382707",
+                "name": "787 Via la Cuesta"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -118.380013,
+                    33.794979
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "736 Via la Cuesta",
+                "name": "736 Via la Cuesta"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -118.381485,
+                    33.794899
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "759 Via la Cuesta. Nail",
+                "name": "759 Via la Cuesta. Nail"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -118.380524,
+                    33.795067
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "746 Via la Cuesta. Nail",
+                "name": "746 Via la Cuesta. Nail"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -118.3895188,
+                    33.7822093,
+                    19.712
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "WPT008",
+                "name": "WPT008"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

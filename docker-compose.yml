@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  testing:
+    build: .
+    container_name: taller-challenge
+
+    command: bundle exec rails server -b 0.0.0.0 -p 3000
+
+    ports:
+      - "3000:3000"
+
+    volumes:
+      - .:/app
+
+    working_dir: /app
+
+    environment:
+      RUBY_BOX: 1
