@@ -1,0 +1,14 @@
+global:
+  label:
+    color: [35, 35, 35]
+
+points:
+  color: [0, 0, 127]
+  font: /usr/share/fonts/truetype/lato/Lato-Regular.ttf
+  size: 20
+  icon: public/icon-1.png # numeric or alphabetic
+
+order:
+  # Drawing order (layers rendered from bottom to top)
+  - points
+  - track
