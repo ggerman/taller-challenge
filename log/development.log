@@ -4822,3 +4822,11 @@ Completed 422 Unprocessable Content in 1ms (Views: 0.1ms | ActiveRecord: 0.1ms (
 
 
   [1m[36mBook Load (2.5ms)[0m  [1m[34mSELECT "books".* FROM "books" /* loading for pp */ LIMIT 11 /*application='ImprintDemo'*/[0m
+Started GET "/books" for 172.24.0.1 at 2026-02-19 18:19:18 +0000
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books" /*action='index',application='ImprintDemo',controller='books'*/[0m
+  ↳ app/controllers/books_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for 172.24.0.1 at 2026-02-19 18:19:19 +0000

@@ -35,7 +35,7 @@ Endpoint:
 POST /books/:id/reserve
 Body:
 ```json
-{ "email": "ggerman@gmail.com" }
+{"reservation":{"email":"ggerman@gmail.com"}}
 ```
 
 Example curl requests
