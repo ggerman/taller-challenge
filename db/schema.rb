@@ -10,20 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_02_19_163529) do
-  create_table "reservations", force: :cascade do |t|
-    t.integer "book_id_id"
-    t.string "email"
+ActiveRecord::Schema[8.1].define(version: 2026_02_19_170204) do
+  create_table "books", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.string "isbn"
     t.integer "status"
-    t.index ["book_id_id"], name: "index_reservations_on_book_id_id"
+    t.string "title"
+    t.datetime "updated_at", null: false
+    t.index ["status"], name: "index_books_on_status"
   end
 
-  create_table "visitors", force: :cascade do |t|
+  create_table "reservations", force: :cascade do |t|
+    t.integer "book_id", null: false
     t.datetime "created_at", null: false
-    t.string "ip"
-    t.float "lat"
-    t.float "lon"
+    t.string "email"
     t.datetime "updated_at", null: false
-    t.string "user_agent"
+    t.index ["book_id"], name: "index_reservations_on_book_id"
+    t.index ["email"], name: "index_reservations_on_email"
   end
+
+  add_foreign_key "reservations", "books"
 end
