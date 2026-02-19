@@ -40,14 +40,52 @@ Body:
 
 Example curl requests
 ```bash
-curl -X POST http://localhost:3000/books/1/reserve  -H "Content-Type: application/json" -H "Accept: application/json" -d '{"email":"alice.smith@example.com"}'
-curl -X POST http://localhost:3000/books/2/reserve  -H "Content-Type: application/json" -H "Accept: application/json" -d '{"email":"dev42@testmail.org"}'
-curl -X POST http://localhost:3000/books/3/reserve  -H "Content-Type: application/json" -H "Accept: application/json" -d '{"email":"rubylover88@mail.net"}'
-curl -X POST http://localhost:3000/books/4/reserve  -H "Content-Type: application/json" -H "Accept: application/json" -d '{"email":"juan.perez@correo.com"}'
-curl -X POST http://localhost:3000/books/5/reserve  -H "Content-Type: application/json" -H "Accept: application/json" -d '{"email":"nina.dev@techhub.io"}'
-curl -X POST http://localhost:3000/books/6/reserve  -H "Content-Type: application/json" -H "Accept: application/json" -d '{"email":"backend.hero@api.dev"}'
-curl -X POST http://localhost:3000/books/7/reserve  -H "Content-Type: application/json" -H "Accept: application/json" -d '{"email":"user_random_77@demo.app"}'
-curl -X POST http://localhost:3000/books/8/reserve  -H "Content-Type: application/json" -H "Accept: application/json" -d '{"email":"sofia.lopez@mailservice.co"}'
-curl -X POST http://localhost:3000/books/9/reserve  -H "Content-Type: application/json" -H "Accept: application/json" -d '{"email":"tester.alpha@qa.org"}'
-curl -X POST http://localhost:3000/books/10/reserve -H "Content-Type: application/json" -H "Accept: application/json" -d '{"email":"cloud.runner@infra.dev"}'
+curl -X POST http://localhost:3000/books/1/reserve \
+  -H "Content-Type: application/json" \
+  -d '{"reservation":{"email":"alice@example.com"}}'
+```
+```bash
+curl -X POST http://localhost:3000/books/2/reserve \
+  -H "Content-Type: application/json" \
+  -d '{"reservation":{"email":"bob@example.com"}}'
+```
+```bash
+curl -X POST http://localhost:3000/books/3/reserve \
+  -H "Content-Type: application/json" \
+  -d '{"reservation":{"email":"carol@example.com"}}'
+```
+```bash
+curl -X POST http://localhost:3000/books/4/reserve \
+  -H "Content-Type: application/json" \
+  -d '{"reservation":{"email":"dave@example.com"}}'
+```
+```bash
+curl -X POST http://localhost:3000/books/5/reserve \
+  -H "Content-Type: application/json" \
+  -d '{"reservation":{"email":"eve@example.com"}}'
+```
+```bash
+curl -X POST http://localhost:3000/books/6/reserve \
+  -H "Content-Type: application/json" \
+  -d '{"reservation":{"email":"frank@example.com"}}'
+```
+```bash
+curl -X POST http://localhost:3000/books/7/reserve \
+  -H "Content-Type: application/json" \
+  -d '{"reservation":{"email":"grace@example.com"}}'
+```
+```bash
+curl -X POST http://localhost:3000/books/8/reserve \
+  -H "Content-Type: application/json" \
+  -d '{"reservation":{"email":"heidi@example.com"}}'
+```
+```bash
+curl -X POST http://localhost:3000/books/9/reserve \
+  -H "Content-Type: application/json" \
+  -d '{"reservation":{"email":"ivan@example.com"}}'
+```
+```bash
+curl -X POST http://localhost:3000/books/10/reserve \
+  -H "Content-Type: application/json" \
+  -d '{"reservation":{"email":"judy@example.com"}}'
 ```
