@@ -1,6 +1,10 @@
 # README
 Books Reservation API
 
+## Run the application with Docker Compose using docker compose up. 
+
+You can access the container shell with docker exec -it taller-challenge bash.
+
 Seed random books
 
 Open Rails console:
